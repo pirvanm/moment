@@ -5,12 +5,25 @@
  //$robotActivat = true;
  $robotActivat = false ;
 
-if($robotActivat == true ) {
-    header('Location: robotpage.php');
+$ingredientePizza  = [
+    'carne', 
+    'branza', 
+    'ardei'
+];
+
+foreach($ingredientePizza as $ingredient )
+{
+    echo "<li>";
+    echo $ingredient;
+    echo "</li>";
 }
+#1 prima pagina 
+// if($robotActivat == true ) {
+//     header('Location: robotpage.php');
+// }
 
 
-else {
-    echo 'pagina ta';
-}
+// else {
+//     echo 'pagina ta';
+// }
 ?>
