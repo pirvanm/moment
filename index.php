@@ -14,7 +14,7 @@ $ingredientePizza  = [
 //https://stackoverflow.com/questions/1293896/php-array-printing-using-a-loop/17805906
 // numar elemente , intreg
 $numar = count($ingredientePizza);
-for($i = 0; $i <= count($ingredientePizza); $i++)
+for($i = 0; $i < sizeof($ingredientePizza); $i++)
 {
     
 // foreach($ingredientePizza as $ingredient )
