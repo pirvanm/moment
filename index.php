@@ -11,15 +11,17 @@ $ingredientePizza  = [
     'ardei'
 ];
 
-
+//https://stackoverflow.com/questions/1293896/php-array-printing-using-a-loop/17805906
 // numar elemente , intreg
 $numar = count($ingredientePizza);
-for($i = 1; $i <= 10; $i++)
+for($i = 0; $i <= count($ingredientePizza); $i++)
 {
+    
 // foreach($ingredientePizza as $ingredient )
 // {
     echo "<li>";
-   print_r($ingredientePizza);
+   print($ingredientePizza[$i]);
+
     echo "</li>";
 // }
 }
