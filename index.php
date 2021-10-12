@@ -11,11 +11,17 @@ $ingredientePizza  = [
     'ardei'
 ];
 
-foreach($ingredientePizza as $ingredient )
+
+// numar elemente , intreg
+$numar = count($ingredientePizza);
+for($i = 1; $i <= 10; $i++)
 {
+// foreach($ingredientePizza as $ingredient )
+// {
     echo "<li>";
-    echo $ingredient;
+   print_r($ingredientePizza);
     echo "</li>";
+// }
 }
 #1 prima pagina 
 // if($robotActivat == true ) {
