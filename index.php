@@ -1,4 +1,8 @@
 <?php 
+
+error_reporting(E_ALL);
+ini_set('display_errors', 'On');
+ini_set('html_errors', 'Off'); 
 // putem avea un robot care face 
 // ceva cat timp e activat 
 
@@ -14,7 +18,7 @@ $ingredientePizza  = [
 //https://stackoverflow.com/questions/1293896/php-array-printing-using-a-loop/17805906
 // numar elemente , intreg
 $numar = count($ingredientePizza);
-for($i = 0; $i < sizeof($ingredientePizza); $i++)
+for($i = 0; $i < count($ingredientePizza); $i++)
 {
     
 // foreach($ingredientePizza as $ingredient )
